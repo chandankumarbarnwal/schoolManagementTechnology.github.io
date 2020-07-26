@@ -52,3 +52,9 @@
 	<nav class="navbar navbar-expand-lg fixed-top">
 
 
+6. To make hover effect and move in y direction 
+
+.extra-div:hover{
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+	transform: translateY(-20px);
+}
