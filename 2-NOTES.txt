@@ -1,0 +1,54 @@
+1. opacity:0.3;
+	To give transparent of color
+
+2. z-index: -1
+	To specify which one will appear first	
+
+3. To make a tag under line none (By default underline)
+	li tag style (default . before text)
+
+	Make for  all by default any where in code. If we forgot then will show fefault style.
+
+	a{ text-decoration: none; }
+
+	a:hover{ text-decoration: none; }
+
+	li{ list-style: none; }
+
+4. To bring some tag in center perfectly for all device
+
+	//main div make position relative
+
+	.header-section {
+		width: 100%;
+		height: inherit;
+		color: white;
+		text-align: center;
+		position: relative;
+	}
+
+	// sub-main div position absolute
+	// top:50%, left:50% and transform
+
+	.center-div {
+		width: 100%;
+		height: auto;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+	}
+
+
+
+5. Bootstrap also provides mechanism to create navbar that is fixed on the top or bottom of the viewport
+	 and will scroll with the content on the page. Not header or footer
+
+	Creating the Fixed to Top Navbar
+	Apply the position utility class .fixed-top to the .navbar element to fix the navbar at the top of the viewport, so that it won't scroll with the page. Here's an example:
+
+	<nav class="navbar navbar-expand-lg fixed-top">
+
+
